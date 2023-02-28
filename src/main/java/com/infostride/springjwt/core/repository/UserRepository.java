@@ -1,11 +1,11 @@
-package com.infostride.springjwt.repository;
+package com.infostride.springjwt.core.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.infostride.springjwt.models.User;
+import com.infostride.springjwt.core.models.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {

@@ -1,4 +1,4 @@
-package com.infostride.springjwt.security.jwt;
+package com.infostride.springjwt.core.security.jwt;
 
 import java.io.IOException;
 import java.util.HashMap;

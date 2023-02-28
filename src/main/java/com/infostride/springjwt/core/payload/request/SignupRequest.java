@@ -1,4 +1,4 @@
-package com.infostride.springjwt.payload.request;
+package com.infostride.springjwt.core.payload.request;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;

@@ -1,4 +1,4 @@
-package com.infostride.springjwt.models;
+package com.infostride.springjwt.core.models;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;

@@ -1,2 +1,4 @@
-package com.infostride.springjwt.projects.controller;public class ProjectsController {
+package com.infostride.springjwt.projects.controller;
+
+public class ProjectsController {
 }

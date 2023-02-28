@@ -1,4 +1,4 @@
-package com.infostride.springjwt.controllers;
+package com.infostride.springjwt.core.controllers;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;

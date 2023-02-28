@@ -1,4 +1,4 @@
-package com.infostride.springjwt.controllers;
+package com.infostride.springjwt.core.controllers;
 
 import java.util.HashSet;
 import java.util.List;
@@ -20,17 +20,17 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.infostride.springjwt.models.ERole;
-import com.infostride.springjwt.models.Role;
-import com.infostride.springjwt.models.User;
-import com.infostride.springjwt.payload.request.LoginRequest;
-import com.infostride.springjwt.payload.request.SignupRequest;
-import com.infostride.springjwt.payload.response.JwtResponse;
-import com.infostride.springjwt.payload.response.MessageResponse;
-import com.infostride.springjwt.repository.RoleRepository;
-import com.infostride.springjwt.repository.UserRepository;
-import com.infostride.springjwt.security.jwt.JwtUtils;
-import com.infostride.springjwt.security.services.UserDetailsImpl;
+import com.infostride.springjwt.core.models.ERole;
+import com.infostride.springjwt.core.models.Role;
+import com.infostride.springjwt.core.models.User;
+import com.infostride.springjwt.core.payload.request.LoginRequest;
+import com.infostride.springjwt.core.payload.request.SignupRequest;
+import com.infostride.springjwt.core.payload.response.JwtResponse;
+import com.infostride.springjwt.core.payload.response.MessageResponse;
+import com.infostride.springjwt.core.repository.RoleRepository;
+import com.infostride.springjwt.core.repository.UserRepository;
+import com.infostride.springjwt.core.security.jwt.JwtUtils;
+import com.infostride.springjwt.core.security.services.UserDetailsImpl;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController

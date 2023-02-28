@@ -1,4 +1,4 @@
-package com.infostride.springjwt.payload.response;
+package com.infostride.springjwt.core.payload.response;
 
 import java.util.List;
 

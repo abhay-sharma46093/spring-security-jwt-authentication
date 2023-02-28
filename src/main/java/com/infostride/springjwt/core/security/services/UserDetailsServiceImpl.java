@@ -1,5 +1,6 @@
-package com.infostride.springjwt.security.services;
+package com.infostride.springjwt.core.security.services;
 
+import com.infostride.springjwt.core.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -7,8 +8,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.infostride.springjwt.models.User;
-import com.infostride.springjwt.repository.UserRepository;
+import com.infostride.springjwt.core.models.User;
 
 @Service
 
